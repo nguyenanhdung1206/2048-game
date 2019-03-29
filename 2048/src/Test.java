@@ -3,10 +3,9 @@ import java.util.Random;
 
 
 public class Test {
-
+    
     public static void main(String[] args) {
-        Playgame newgame = new Playgame(8,16);
-        newgame.startGame();
-        newgame.playermove();
+        Game2048 newgame = new Game2048();
+        newgame.playGame();
     }
 }
